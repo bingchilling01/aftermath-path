@@ -1,6 +1,7 @@
-body {
-        background-color: #ccff99;
-        font-family: Arial, sans-serif;
+	  body {
+        background-image: url('./recursos/imagenes/fondo.gif');
+		background-repeat: repeat;
+		background-size: 1500px;
       }
       
 	  @font-face {
@@ -27,24 +28,27 @@ body {
         text-align: center;
 		font-family: "righteous", sans-serif;
 		font-size: 45px;
+		color: yellow;
       }
       
 	  .descripcion {
 		  font-family: "museo", sans-serif;
-		  font-weight: bold;
 		  font-size: 20px;
+		  color: #61eb34;
 	  }
 	  
 	  .descripcion2 {
 		  font-family: "museo", sans-serif;
 		  font-weight: bold;
 		  font-size: 27px;
+		  color: #e2f518;
 	  }
 	  
 	  .titulocaracteristicas {
 		  font-family: "righteous", sans-serif;
 		  font-weight: bold;
 		  font-size: 27px;
+		  color: #e2f518;
 	  }
 	  
       .cuadro {
@@ -53,6 +57,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+		color: white;
       }
 	  
 	  .cuadro img {
@@ -78,6 +83,7 @@ body {
         color: #333;
 		font-family: "one", sans-serif;
 		font-weight: bold;
+		color: white;
       }
       
       .caracteristicas p {
